@@ -48,7 +48,7 @@ public class ControlFlowExercises {
 			}
 			System.out.println(out);
 		}
-		
+		*/
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Please enter a number: ");
 		int x = sc.nextInt();
@@ -58,19 +58,19 @@ public class ControlFlowExercises {
 		for (int i = 1; i <= x; i++) {
 			System.out.println(i + "     |"+ i*i + "     |" + i*i*i + "\n");
 		}
-		*/
-		Scanner sc = new Scanner(System.in);
+		
+		Scanner sc1 = new Scanner(System.in);
 		do {
 			String grade;
 			System.out.println("Please enter a grade from 0-100: ");
-			int x = sc.nextInt();
-			if (x <= 100 && x >= 88) {
+			int x1 = sc1.nextInt();
+			if (x1 <= 100 && x1 >= 88) {
 				grade = "A";
-			} else if (x <= 87 && x >= 80) {
+			} else if (x1 <= 87 && x1 >= 80) {
 				grade = "B";
-			} else if (x <= 79 && x >= 67) {
+			} else if (x1 <= 79 && x1 >= 67) {
 				grade = "C";
-			} else if (x <= 66 && x >= 60) {
+			} else if (x1 <= 66 && x1 >= 60) {
 				grade = "D";
 			} else {
 				grade = "F";
